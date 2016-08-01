@@ -207,17 +207,17 @@ liveagent.init('https://d.la1-c2-phx.salesforceliveagent.com/chat', '57250000000
                             </div>
                             <div class="form-group">
                                 <label for="assunto" class="control-label">*ASSUNTO:</label>
-                                <select class="assunto form-control" id="subject" name="subject" data-parsley-required-message="* Campo Assunto obrigatório" required="">
+                                <select class="assunto form-control" id="type" name="type" data-parsley-required-message="* Campo Assunto obrigatório" required="">
                                     <option value="">Selecione um assunto</option>
-                                                                        <option value="1">D&uacute;vidas</option>
-                                                                        <option value="2">Elogios</option>
-                                                                        <option value="3">Sugest&otilde;es</option>
-                                                                        <option value="4">Outros</option>
+                                                                        <option value="D&uacute;vidas">D&uacute;vidas</option>
+                                                                        <option value="Elogios">Elogios</option>
+                                                                        <option value="Sugest&otilde;es">Sugest&otilde;es</option>
+                                                                        <option value="Outros">Outros</option>
                                                                     </select>
                             </div>
                             <div class="form-group last-item" style="margin-top: 4%;">
                                 <label for="mensagem" class="control-label">MENSAGEM:</label>
-                                <textarea type="text" class="form-control" id="description" rows="5" placeholder="digite sua mensagem" name="description"></textarea>
+                                <textarea type="text" class="form-control" id="subject" rows="5" placeholder="digite sua mensagem" name="subject"></textarea>
                             </div>
                             <div id="modalFormContact1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="msg-modal">
